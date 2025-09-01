@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "tsc",
-    "test": "vitest run"
+    "test": "vitest",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
