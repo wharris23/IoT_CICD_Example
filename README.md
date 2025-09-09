@@ -22,7 +22,7 @@ npm run build
 npm start
 ```
 
-By default, the backend runs on port `5000`.
+By default, the backend runs on port `5001`.
 
 ---
 
@@ -64,14 +64,14 @@ docker build -t your-docker-username/your-app-name:latest .
 
 ### 🚀 Run Docker Container
 
-Run the container and map port 5000:
+Run the container and map port 5001:
 
 ```bash
-docker run -p 5000:5000 your-docker-username/your-app-name:latest -d
+docker run -d -p 5001:5001 your-docker-username/your-app-name:latest
 ```
 
 Your app will be accessible at:  
-[http://localhost:5000](http://localhost:5000)
+[http://localhost:5001](http://localhost:5001)
 
 ---
 
@@ -82,6 +82,6 @@ Your app will be accessible at:
 - Lint: `npm run lint`
 - Start: `npm start`
 - Docker build: `docker build -t ...`
-- Docker run: `docker run -p 5000:5000 ...`
+- Docker run: `docker run -d -p 5001:5001 ...`
 
 ---
