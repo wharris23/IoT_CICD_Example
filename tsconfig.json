@@ -6,15 +6,10 @@
     "outDir": "./dist",
 
     // Environment Settings
-    // See also https://aka.ms/tsconfig/module
     "module": "ESNext",
     "target": "ES2020",
     "moduleResolution": "bundler",
-    "types": [],
-    // For nodejs:
-    // "lib": ["esnext"],
-    // "types": ["node"],
-    // and npm install -D @types/node
+    "types": ["node", "vitest"],
 
     // Other Outputs
     "sourceMap": true,
@@ -36,7 +31,6 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
-    // "verbatimModuleSyntax": true,
     "isolatedModules": true,
 
     "moduleDetection": "force",
